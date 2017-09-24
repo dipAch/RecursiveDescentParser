@@ -9,4 +9,4 @@ B->+iB/null <br />
 i+i$ - **PASS** <br />
 i+ i+ i +$ - **PASS** <br />
 i+$ - **FAIL** <br />
-+ $ - **FAIL** <br />
+\+ $ - **FAIL** <br />
