@@ -28,7 +28,8 @@ if __name__ == '__main__':
 	while True:
 		production_rule = raw_input()
 		if production_rule == '':
-			break
+			print '[GRAMMAR :: ERROR] -> Cannot have empty GRAMMAR. Please correct and then try.'
+			sys.exit(1)
 		productions.append(production_rule.strip())
 
 	# Split the LHS and RHS of the production rules.
