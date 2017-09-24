@@ -1,5 +1,5 @@
 # RecursiveDescentParser
-Implementation of Generic Recursive Descent Parser for Syntax Analysis Phase. It can take any valid grammar <br />
+Implementation of Generic Recursive Descent Parser for **Syntax Analysis Phase**. It can take any valid grammar <br />
 accepted by the RDP, and transform the production rules to recursive functions or procedures at runtime. <br />
 
 # Test Input Grammar
