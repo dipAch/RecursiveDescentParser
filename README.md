@@ -8,6 +8,6 @@ B->+iB/null <br />
 
 # Test String for above GRAMMAR
 i+i$ - **PASS** <br />
-i+ i+ i +$ - **PASS** <br />
+i+ i+ i +i$ - **PASS** <br />
 i+$ - **FAIL** <br />
 \+ $ - **FAIL** <br />
