@@ -56,7 +56,7 @@ if __name__ == '__main__':
 				break
 		else:
 			rhs_components = []
-			if rhs_rule != '':
+			if rhs_rule != '' and not bool(re.search(r'\s+', rhs_rule)):
 				rhs_components.append(rhs_rule)
 			else:
 				RULE_PARSE_ERROR = True
